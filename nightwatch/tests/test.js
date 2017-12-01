@@ -41,6 +41,7 @@ module.exports = {
             .pause(100)
     },
     "Error checking on entering bad data into donation fields": browser => {
+        //This test corresponds to JIRA test case TES-24 Testing for error messages, but not well
         browser.url('http://192.168.11.79:3000/support');
         for (var key in selectors.donationFields) {
             if (selectors.donationFields.hasOwnProperty(key)) {
