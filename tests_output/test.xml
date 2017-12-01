@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="1"
+    tests="2" time="0.006000" timestamp="Fri, 01 Dec 2017 18:34:25 GMT">
+  
+    <testcase name="Testing the header links" classname="test" time="0.006000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Test / Testing the header links]:
+
+  TypeError: Cannot read property 'click' of undefined
+    at Object.buttonClick (C:\Users\orphan38\Documents\QACohort\Week-2-Assessment\nightwatch\test_data\test_functions.js:16:13)
+    at Object.Testing the header links (C:\Users\orphan38\Documents\QACohort\Week-2-Assessment\nightwatch\tests\test.js:14:19)
+    at Module.call (C:\Users\orphan38\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\orphan38\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\orphan38\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\orphan38\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\orphan38\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\orphan38\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\orphan38\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\orphan38\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Enter information for donation" classname="test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
